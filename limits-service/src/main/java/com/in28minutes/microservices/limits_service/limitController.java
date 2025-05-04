@@ -4,7 +4,9 @@ import com.in28minutes.microservices.limits_service.Configuration.Configuration;
 import com.in28minutes.microservices.limits_service.bean.Limits;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class limitController {
     @Autowired
     private Configuration configuration;
