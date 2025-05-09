@@ -39,7 +39,7 @@ COPY ./src/main/java/com/in28minutes/rest/webservices/restfulwebservices/Restful
 RUN mvn -f /home/app/pom.xml clean package
 
 COPY . /home/app
-RUN mvn -f /home/app/pom.xml clean package
+RUN mvn -f /hhvome/app/pom.xml clean package
 
 FROM openjdk:18.0-slim
 EXPOSE 5000
